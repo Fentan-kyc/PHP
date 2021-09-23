@@ -1,8 +1,78 @@
 @import 'global';
 
+/******************************Global*********************************************/
 
+body{
+
+}
+
+/*****************************Some******************************************/
+.logo{
+
+    img{
+    height: 24px;
+    width: 24px;
+    }
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
 /***************************Header*****************************************/
 
 .header{
     width: 100%;
+    background: darkcyan;
+    padding: 24px 0;
+
+    font-size: 24px;
+}
+
+.header__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header__list{
+    display: flex;
+}
+
+.header__item{
+
+    &:not(:last-child){
+    margin-right: 50px;
+    }
+}
+
+.header__link{
+
+    &_sign{
+
+        &_enter{
+            position: relative;
+            padding-left: 21px;
+            margin-right: 20px;
+
+            &:before{
+               content: '';
+               position: absolute;
+               top: 23%;
+               left: 0;
+               background: url("/img/user.svg") no-repeat;
+               height: 16px;
+               width: 16px;
+               z-index: 9;
+            }
+        }
+    }
 }
