@@ -15,9 +15,28 @@
 
         <main class="main">
             <section class="top">
-                <h1 class="title top__title">Топ публикаций</h1>
+                <div class="container top__container">
+                    <h1 class="title top__title">Топ публикаций</h1>
 
-                <div class="slider">
+                    <div class="slider">
+
+                        <div class="slider__item">
+                            <img src="img/slider/01.jpg" alt="">
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/slider/01.jpg" alt="">
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/slider/01.jpg" alt="">
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/slider/01.jpg" alt="">
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/slider/01.jpg" alt="">
+                        </div>
+                        
+                    </div>
 
                 </div>
             </section>

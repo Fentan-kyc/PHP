@@ -6,6 +6,10 @@ body{
     box-sizing: border-box;
 }
 
+img{
+    vertical-align: top;
+}
+
 .wrapper{
     margin: 0 auto;
     display: flex;

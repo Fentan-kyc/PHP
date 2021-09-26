@@ -7,6 +7,10 @@ body {
           box-sizing: border-box;
 }
 
+img {
+  vertical-align: top;
+}
+
 .wrapper {
   margin: 0 auto;
   display: -webkit-box;
@@ -56,6 +60,7 @@ body {
   padding: 24px 0;
   -webkit-box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
           box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  margin-bottom: 40px;
   font-size: 24px;
 }
 
@@ -97,4 +102,22 @@ body {
   background: url("/img/user.svg") no-repeat;
   height: 16px;
   width: 16px;
+}
+
+/*************************************Main**********************************************/
+.top {
+  text-align: center;
+}
+
+.slick-list {
+  width: 50%;
+  height: 150px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
