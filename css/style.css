@@ -84,6 +84,11 @@ img {
   display: flex;
 }
 
+.header__item {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .header__item:not(:last-child) {
   margin-right: 50px;
 }
